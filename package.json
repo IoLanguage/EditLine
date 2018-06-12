@@ -1,0 +1,15 @@
+{
+  "name":         "EditLine",
+  "version":      "0.1",
+  "description":  "Binding to libedit (BSD version of readline).",
+  "author":       "Jonathan Wright",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       ["EditLine"],
+  "dependencies": {
+    "libs":     ["edit"],
+    "headers":  ["histedit.h"],
+    "protos":   [],
+    "packages": []
+  }
+}
